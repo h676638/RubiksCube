@@ -1,0 +1,125 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             Title="RubikCubeGraphics"
+             x:Class="RubikCubeGraphics.MainWindow"
+             x:DataType="local:MainWindow"
+             xmlns:local="clr-namespace:RubikCubeGraphics">
+
+    <Grid>
+        <UniformGrid Columns="3">
+            <Border BorderBrush="Purple" BorderThickness="4">
+                <UniformGrid Margin="20" Columns="3">
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[0]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[1]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[2]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[3]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[4]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[5]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[6]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[7]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[8]}" />
+                </UniformGrid>
+            </Border>
+
+            <Border BorderBrush="Purple" BorderThickness="4">
+                <UniformGrid Margin="20" Columns="3">
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[9]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[10]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[11]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[12]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[13]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[14]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[15]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[16]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[17]}" />
+                </UniformGrid>
+            </Border>
+
+            <Border BorderBrush="Purple" BorderThickness="4">
+                <UniformGrid Margin="20" Columns="3">
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[18]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[19]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[20]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[21]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[22]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[23]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[24]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[25]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[26]}" />
+                </UniformGrid>
+            </Border>
+
+            <Border BorderBrush="Purple" BorderThickness="4">
+                <UniformGrid Margin="20" Columns="3">
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[27]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[28]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[29]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[30]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[31]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[32]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[33]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[34]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[35]}" />
+                </UniformGrid>
+            </Border>
+
+            <Border BorderBrush="Purple" BorderThickness="4">
+                <UniformGrid Margin="20" Columns="3">
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[36]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[37]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[38]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[39]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[40]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[41]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[42]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[43]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[44]}" />
+                </UniformGrid>
+            </Border>
+            
+            <Border BorderBrush="Purple" BorderThickness="4">
+                <UniformGrid Margin="20" Columns="3">
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[45]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[46]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[47]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[48]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[49]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[50]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[51]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[52]}" />
+                    <Rectangle Width="30" Height="30" Fill="{Binding cubeColors[53]}" />
+                </UniformGrid>
+            </Border>            
+        </UniformGrid>
+        <UniformGrid Columns="3">
+            <UniformGrid Columns="1">
+                <Button Content="Horizontal North" Click="HorizontalNorth"/>
+                <Button Content="Horizontal North Reversed" Click="HorizontalNorthReversed"/>
+            </UniformGrid>  
+            <UniformGrid Columns="1">
+                <Button Content="Horizontal South" Click="HorizontalSouth"/>
+                <Button Content="Horizontal South Reversed" Click="HorizontalSouthReversed"/>
+            </UniformGrid>  
+            <UniformGrid Columns="1">
+                <Button Content="Vertical Front West" Click="VerticalFrontWest"/>
+                <Button Content="Vertical Front West Reversed" Click="VerticalFrontWestReversed"/>
+            </UniformGrid>  
+            <UniformGrid Columns="1">
+                <Button Content="Vertical Front East" Click="VerticalFrontEast"/>
+                <Button Content="Vertical Front East Reversed" Click="VerticalFrontEastReversed"/>
+            </UniformGrid>  
+            <UniformGrid Columns="1">
+                <Button Content="Vertical Side West" Click="VerticalSideWest"/>
+                <Button Content="Vertical Side West Reversed" Click="VerticalSideWestReversed"/>
+            </UniformGrid>  
+            <UniformGrid Columns="1">
+                <Button Content="Vertical Side East" Click="VerticalSideEast"/>
+                <Button Content="Vertical Side East Reversed" Click="VerticalSideEastReversed"/>
+            </UniformGrid>  
+        </UniformGrid>
+    </Grid>
+
+</UserControl>
